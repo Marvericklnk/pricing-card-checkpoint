@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f6fb; color: #18243a; font-family: Arial, sans-serif; }
+header { padding: 48px 20px 24px; text-align: center; }
+.eyebrow { color: #4338ca; font-weight: bold; letter-spacing: 3px; font-size: 12px; }
+h1 { font-size: clamp(28px, 5vw, 44px); }
+main { padding: 16px 20px; }
+.plans { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
+.pricing { width: 300px; max-width: 100%; background-color: #fff; box-shadow: 0 6px 24px #18243a14; border: 1px solid #e4e8f2; border-radius: 16px; padding: 28px; text-align: left; }
+.title { margin-top: 0; font-size: 22px; }
+.price { font-size: 28px; font-weight: bold; color: #166534; }
+.features { list-style: none; padding-left: 0; }
+.features li { padding: 12px 0; border-bottom: 1px solid #eee; }
+.btn { width: 100%; background: #4338ca; color: white; padding: 12px 20px; border: none; border-radius: 8px; margin-top: 16px; font-size: 16px; cursor: pointer; transition: background-color .2s; }
+.btn:hover { background: #312e81; }
+.btn:focus-visible { outline: 3px solid #818cf8; outline-offset: 4px; }
+#trial-message { text-align: center; font-weight: bold; line-height: 1.6; min-height: 28px; }
+.note, footer { text-align: center; color: #526077; font-size: 14px; line-height: 1.6; }
+footer { padding: 20px; }
+@media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
