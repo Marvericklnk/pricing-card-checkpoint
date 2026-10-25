@@ -1,5 +1,9 @@
 # Pricing Card Refactoring Checkpoint
 
+[Live demo](https://marvericklnk.github.io/pricing-card-checkpoint/)
+
+![Pricing cards preview](screenshots/preview.jpg)
+
 Before and after implementation using HTML, CSS, and JavaScript, without frameworks.
 
 ## Files
